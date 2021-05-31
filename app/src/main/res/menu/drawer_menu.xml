@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:title="@string/all_category"
+        android:id="@+id/nav_category"
+        android:icon="@drawable/ic_all_category"/>
+    <item
+        android:title="@string/coupons"
+        android:id="@+id/nav_coupons"
+        android:icon="@drawable/ic_coupons"/>
+    <item
+        android:title="@string/offers"
+        android:id="@+id/nav_offers"
+        android:icon="@drawable/ic_offers"/>
+
+
+    <item android:title="@string/other">
+        <menu>
+            <item
+                android:id="@+id/nav_about_us"
+                android:title="@string/about_us"
+                android:icon="@drawable/ic_about_us"/>
+            <item
+                android:id="@+id/nav_privacy_policy"
+                android:title="@string/privacy_policy"
+                android:icon="@drawable/ic_policy_privacy"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/profile">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:title="@string/settings"
+                android:icon="@drawable/ic_settings"/>
+            <item
+                android:id="@+id/nav_log_out"
+                android:title="@string/log_out"
+                android:icon="@drawable/ic_logout"/>
+        </menu>
+    </item>
+</menu>

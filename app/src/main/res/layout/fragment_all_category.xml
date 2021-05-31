@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AllCategoryFragment">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize">
+
+            <EditText
+                android:id="@+id/search_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:autofillHints="@string/search"
+                android:hint="@string/search"
+                android:inputType="text"
+                android:padding="10dp"
+                android:background="@drawable/edit_text"
+                android:drawableEnd="@drawable/ic_search_icon">
+            </EditText>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/categories"
+            android:autoSizeTextType="uniform"
+            android:textSize="24sp"
+            android:padding="10dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@drawable/gradient"
+                    android:layout_margin="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/category1"
+                        android:layout_alignParentEnd="true"
+                        android:autoSizeTextType="uniform"
+                        android:textSize="32sp"
+                        android:textStyle="bold"
+                        android:padding="25dp"/>
+
+                    <Button
+                        android:id="@+id/view_all_chocolate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/view_all"
+                        android:autoSizeTextType="uniform"
+                        android:padding="20dp"
+                        android:layout_alignParentEnd="true"
+                        android:background="@android:color/transparent"
+                        android:layout_alignParentBottom="true">
+                    </Button>
+                </RelativeLayout>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="-15dp"
+                android:layout_alignParentStart="true"
+                android:contentDescription="@string/category1"
+                android:src="@drawable/chocolate" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/gradient"
+                android:layout_margin="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/category2"
+                    android:layout_alignParentEnd="true"
+                    android:autoSizeTextType="uniform"
+                    android:textSize="32sp"
+                    android:textStyle="bold"
+                    android:padding="25dp"/>
+
+                <Button
+                    android:id="@+id/view_all_cake"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/view_all"
+                    android:autoSizeTextType="uniform"
+                    android:padding="20dp"
+                    android:layout_alignParentEnd="true"
+                    android:background="@android:color/transparent"
+                    android:layout_alignParentBottom="true">
+                </Button>
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="-15dp"
+                android:layout_alignParentStart="true"
+                android:contentDescription="@string/category2"
+                android:src="@drawable/cake" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/gradient"
+                android:layout_margin="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/category3"
+                    android:layout_alignParentEnd="true"
+                    android:autoSizeTextType="uniform"
+                    android:textSize="32sp"
+                    android:textStyle="bold"
+                    android:padding="25dp"/>
+
+                <Button
+                    android:id="@+id/view_all_muffin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/view_all"
+                    android:autoSizeTextType="uniform"
+                    android:padding="20dp"
+                    android:layout_alignParentEnd="true"
+                    android:background="@android:color/transparent"
+                    android:layout_alignParentBottom="true">
+                </Button>
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="-15dp"
+                android:layout_alignParentStart="true"
+                android:contentDescription="@string/category3"
+                android:src="@drawable/muffin" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/gradient"
+                android:layout_margin="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/category4"
+                    android:layout_alignParentEnd="true"
+                    android:autoSizeTextType="uniform"
+                    android:textSize="32sp"
+                    android:textStyle="bold"
+                    android:padding="25dp"/>
+
+                <Button
+                    android:id="@+id/view_all_candy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/view_all"
+                    android:autoSizeTextType="uniform"
+                    android:padding="20dp"
+                    android:layout_alignParentEnd="true"
+                    android:background="@android:color/transparent"
+                    android:layout_alignParentBottom="true">
+                </Button>
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="-15dp"
+                android:layout_alignParentStart="true"
+                android:contentDescription="@string/category4"
+                android:src="@drawable/candy" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/gradient"
+                android:layout_margin="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/category5"
+                    android:layout_alignParentEnd="true"
+                    android:autoSizeTextType="uniform"
+                    android:textSize="32sp"
+                    android:textStyle="bold"
+                    android:padding="25dp"/>
+
+                <Button
+                    android:id="@+id/view_all_cookie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/view_all"
+                    android:autoSizeTextType="uniform"
+                    android:padding="20dp"
+                    android:layout_alignParentEnd="true"
+                    android:background="@android:color/transparent"
+                    android:layout_alignParentBottom="true">
+                </Button>
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="-15dp"
+                android:layout_alignParentStart="true"
+                android:contentDescription="@string/category5"
+                android:src="@drawable/cookie" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/gradient"
+                android:layout_margin="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/category6"
+                    android:layout_alignParentEnd="true"
+                    android:autoSizeTextType="uniform"
+                    android:textSize="32sp"
+                    android:textStyle="bold"
+                    android:padding="25dp"/>
+
+                <Button
+                    android:id="@+id/view_all_lollipop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/view_all"
+                    android:autoSizeTextType="uniform"
+                    android:padding="20dp"
+                    android:layout_alignParentEnd="true"
+                    android:background="@android:color/transparent"
+                    android:layout_alignParentBottom="true">
+                </Button>
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="-15dp"
+                android:layout_alignParentStart="true"
+                android:contentDescription="@string/category6"
+                android:src="@drawable/lollipop" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
